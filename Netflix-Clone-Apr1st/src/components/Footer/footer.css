@@ -1,97 +1,54 @@
-/* Main footer container styling */
 .footer_outer_container {
   background-color: #111;
   color: grey;
-  display: flex;
+  display: flex; 
   justify-content: center;
-  padding: 40px 0;
 }
-
-/* Inner container to control the footer layout */
 .footer_inner_container {
   width: 60%;
-  height: 12%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* background-color: red; */
 }
-
-/* Social media icons container */
 .footer_icons {
+  /* background-color: blue; */
+  width: 12%;
   display: flex;
   justify-content: space-between;
-  width: 15%;
-  margin-bottom: 20px;
-}
-
-/* Styling for the social media icons */
-.footer_icons svg {
+  margin-left: 10px;
   color: #fff;
-  font-size: 24px;
-  cursor: pointer;
-  transition: color 0.3s ease;
+  padding-top: 2px;
 }
-
-/* Hover effect for the social media icons */
-.footer_icons svg:hover {
-  color: grey;
-}
-
-/* Container for footer links */
 .footer_data {
-  width: 100%;
-  margin: 20px 0;
+  padding-top: 15px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
-
-/* Styling for the list of footer links */
 .footer_data ul {
   list-style: none;
-  text-align: center;
-  margin: 0;
-  padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 12vh;
+  /* background-color: blue;
+     */
 }
-
-/* Styling for individual footer links */
 .footer_data ul li {
   cursor: pointer;
-  margin: 8px 20px;
-  font-size: 14px;
-  color: grey;
-  transition: color 0.3s ease;
+}
+.service_code {
+  align-items: center;
+  justify-content: center;
+  border: #fff 1px solid;
+  text-align: center;
+  width: 13%;
+  margin: 10px 0;
+  cursor: pointer;
 }
 
-/* Hover effect for the footer links */
+.copy-write {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
 .footer_data ul li:hover {
   color: #fff;
-  text-decoration: underline;
-}
-
-/* Service code button styling */
-.service_code {
-  border: 1px solid #fff;
-text-align: center;
-  margin: 20px 0;
-  cursor: pointer;
-  color: white;
-  width: 13%;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* Hover effect for the service code button */
-.service_code:hover {
-  background-color: white;
-  color: #111;
-}
-
-/* Copyright text styling */
-.copy_write {
-  font-size: 12px;
-  margin-top: 10px;
-  color: grey;
-  text-align: center;
+  text-decoration: underline;
 }
