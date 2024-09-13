@@ -1,20 +1,24 @@
 {
+  "homepage": "https://Almaz-s.github.io/Netflix-Clone-Apr1st/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
   "name": "netflix-clone-apr1st",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@mui/icons-material": "^6.0.2",
     "@mui/material": "^6.0.2",
     "axios": "^1.7.7",
+    "gh-pages": "^6.1.1",
     "movie-trailer": "^3.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
